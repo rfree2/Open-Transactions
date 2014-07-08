@@ -795,8 +795,8 @@ bool cUseOT::MsgDisplayForNym(const string & nym, bool dryrun) { ///< Get all me
 
 	bprinter::TablePrinter tpIn(&std::cout);
   tpIn.AddColumn("ID", 4);
-  tpIn.AddColumn("From", 20);
-  tpIn.AddColumn("Content", 50);
+  tpIn.AddColumn("From", 7);
+  tpIn.AddColumn("Msg", 15);
 
   nUtils::DisplayStringEndl( cout, NymGetName(nymID) + "(" + nymID + ")" );
 	nUtils::DisplayStringEndl( cout, "INBOX" );
@@ -807,9 +807,9 @@ bool cUseOT::MsgDisplayForNym(const string & nym, bool dryrun) { ///< Get all me
 	tpIn.PrintFooter();
 
   bprinter::TablePrinter tpOut(&std::cout);
-	tpOut.AddColumn("ID", 4);
-	tpOut.AddColumn("To", 20);
-	tpOut.AddColumn("Content", 50);
+  tpOut.AddColumn("ID", 4);
+  tpOut.AddColumn("From", 7);
+  tpOut.AddColumn("Msg", 15);
 
 	nUtils::DisplayStringEndl(cout, "OUTBOX");
 	tpOut.PrintHeader();

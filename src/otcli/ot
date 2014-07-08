@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./othint --run-one "ot $*"
+othint --run-one "ot $*" &>/dev/null && echo "OK"
 

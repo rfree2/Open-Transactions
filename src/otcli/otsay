@@ -1,0 +1,4 @@
+#!/bin/bash
+
+othint --run-one "ot $*"
+
