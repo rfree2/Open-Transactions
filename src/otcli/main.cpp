@@ -1,5 +1,7 @@
 /* See other files here for the LICENCE that applies here. */
 
+#error "This project is moved to new location (this version here is deprecated). See README.txt for new versions, see https://github.com/Open-Transactions/opentxs-cli/ and /rfree2/ user there. If you want to force compilation of this last official version as otshell anyway, then comment out this error line from main.cpp"
+
 #include "lib_common1.hpp"
 #include "runoptions.hpp"
 

@@ -1,4 +1,24 @@
 
+========================================================================
+========================================================================
+DEPRECATED - PROJECT MOVED
+
+This was the last version of project before merging it with 
+the officiall OpenTransactions/opentxs-cli repositor.
+This is the last version before the move, version 0.2.9-final.
+
+You should instead build the version from other repository:
+This project is now moved to:
+https://github.com/Open-Transactions/opentxs-cli/
+also check:
+https://github.com/rfree2/opentxs-cli
+https://github.com/rfree/opentxs-cli
+if in doubt check official Open Transaction sites too.
+
+========================================================================
+========================================================================
+
+
 Project otcli for Open-Transactions: main documentation.
 See directory doc/ and doc/doc.txt for advanced documentation too.
 
